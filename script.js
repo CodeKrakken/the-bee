@@ -2,6 +2,7 @@ const canvas = document.getElementById('bee-canvas')
 const ctx = canvas.getContext('2d')
 const black = 'rgb(0, 0, 0)'
 const yellow = 'rgb(255, 255, 0)'
+const white = 'rgb(255, 255, 255)'
 const xBase = 200
 const yBase = 200
 
@@ -33,8 +34,4 @@ function drawRandomColouredCircle(xAxis, yAxis) {
  drawCircle(xBase + 20, yBase, black)
  drawCircle(xBase + 40, yBase, yellow)
  drawCircle(xBase + 60, yBase, black)
- for(let i=0;i>=0;i++) {
-  drawRandomColouredCircle()
-  setInterval(1)
- }
- 
+ drawCircle(xBase + 80, yBase + 20, white)
