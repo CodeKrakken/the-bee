@@ -1,0 +1,21 @@
+{
+  "name": "the-bee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeKrakken/the-bee.git"
+  },
+  "keywords": [],
+  "author": "Donald Newholm <newholm1@hotmail.com> (https://github.com/CodeKrakken.git)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeKrakken/the-bee/issues"
+  },
+  "homepage": "https://github.com/CodeKrakken/the-bee#readme"
+}
