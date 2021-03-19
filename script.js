@@ -17,6 +17,8 @@ function drawCircle(xAxis, yAxis, colour) {
 }
 
 function drawRandomColouredCircle(xAxis, yAxis) {
+  if (xAxis === undefined) { xAxis = randomNumber(500) }
+  if (yAxis === undefined) { yAxis = randomNumber(500) }s
   ctx.beginPath()
   ctx.arc(xAxis, yAxis, 60, 0, 2 * Math.PI)
   randomRed = randomNumber(255)
@@ -31,4 +33,8 @@ function drawRandomColouredCircle(xAxis, yAxis) {
  drawCircle(xBase + 20, yBase, black)
  drawCircle(xBase + 40, yBase, yellow)
  drawCircle(xBase + 60, yBase, black)
- drawRandomColouredCircle(xBase + 80, yBase)
+ for(let i=0;i>=0;i++) {
+  drawRandomColouredCircle()
+  setInterval(1)
+ }
+ 
